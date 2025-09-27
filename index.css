@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
     background-color: rgb(34, 30, 30);
+    background-image: url(kure.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
 
 li, a, button {

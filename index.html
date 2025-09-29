@@ -15,13 +15,44 @@
                 <li><a href="firewall.html">Firewall</a></li>
             </ul>
         </nav>
-       <a class="cta" href="https://duckboy.net/" target="_blank"><button class="contact">DUCKBOY</button></a>
+
+<!-- Hidden audio (no controls) -->
+  <audio id="myAudio" autoplay loop>
+    <source src="Kane And Lynch 2 Soundtrack - Skyscrapers EXTENDED SONG VERSION.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <!-- Button replaces default audio player -->
+  <button id="audioBtn" onclick="toggleAudio()">⏸ Pause</button>
+
+  <script>
+    const audio = document.getElementById("myAudio");
+    const btn = document.getElementById("audioBtn");
+
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+        btn.textContent = "⏸ Pause";
+      } else {
+        audio.pause();
+        btn.textContent = "▶ Play";
+      }
+    }
+  </script>
+
     </header>
 
-        <div class="container">
+
+
+    <div class="container">
         <img src="gochuna.png" class="nasha" alt="vc nasha">
+        <img src="image.jpg" style="border: 5px solid rgb(78, 0, 23); border-radius: 50px;" class="nasha" alt="nasha dva">
         <img src="gu.webp" class="nasha" alt="nasha dva">
     </div>
+
+    <h1 class="gang">Glaxo, Beso, Gela & Sandro heaten up</h1>
+
+    <img src="cigs.png" class="cigs" alt="">
 
 </body>
 </html>

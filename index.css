@@ -12,7 +12,7 @@ body.home {
 }
 
 .firewall-background {
-  background-color: midnightblue;
+  background: linear-gradient(rgb(0, 0, 57), rgba(0, 0, 0, 0.8), rgb(0, 0, 0));
 
 
 }
@@ -51,7 +51,7 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #0088a9;
+    color: #090057;
 }
 
 
@@ -83,10 +83,8 @@ button:hover {
 }
 
 .souljas {
-display: block;
 border-radius: 10px;
-  margin: auto;
-  width: 50%;
+  width: 20%;
 }
 
 .vergil {
@@ -164,4 +162,33 @@ border-radius: 10px;
 .nasha {
   width: 250px;               /* adjust size as needed */
   height: auto;
+}
+
+
+.gang {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(20, 220, 200);
+  padding-top: 20px;
+}
+
+
+   #audioBtn {
+      float: right; /* moves it to the right side */
+      margin: 20px;
+      padding: 10px 20px;
+      background: #120062;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 25px;
+    }
+
+#audioBtn:hover {
+  color: crimson
+}
+
+.cigs {
+  width: 50%;
 }

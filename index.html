@@ -23,22 +23,22 @@
   </audio>
 
   <!-- Button replaces default audio player -->
-  <button id="audioBtn" onclick="toggleAudio()">⏸ Pause</button>
+  <button id="audioBtn" onclick="toggleAudio()">▶ Play</button>
 
-  <script>
-    const audio = document.getElementById("myAudio");
-    const btn = document.getElementById("audioBtn");
+<script>
+  const audio = document.getElementById("myAudio");
+  const btn = document.getElementById("audioBtn");
 
-    function toggleAudio() {
-      if (audio.paused) {
-        audio.play();
-        btn.textContent = "⏸ Pause";
-      } else {
-        audio.pause();
-        btn.textContent = "▶ Play";
-      }
+  function toggleAudio() {
+    if (audio.paused) {
+      audio.play();
+      btn.textContent = "⏸ Pause";
+    } else {
+      audio.pause();
+      btn.textContent = "▶ Play";
     }
-  </script>
+  }
+</script>
 
     </header>
 
@@ -52,7 +52,16 @@
 
     <h1 class="gang">Glaxo, Beso, Gela & Sandro heaten up</h1>
 
-    <img src="cigs.png" class="cigs" alt="">
+   
+
+      <div class="container">
+        <img src="cigs.png" class="cigs" alt="">
+        <img src="Glaxo_Fish_1.jpg" style="width: 32%; height: 100%; padding-top: 100px;" alt="">
+    </div>
+
+    <img src="Screenshot_20250927-203925.jpg" class="shawty" alt="">
+    <img src="cotne.png" width="20%" alt="">
+
 
 </body>
 </html>

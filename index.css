@@ -190,5 +190,13 @@ border-radius: 10px;
 }
 
 .cigs {
-  width: 50%;
+  width: 30%;
+}
+
+
+.shawty {
+  display: block;
+  margin: auto;
+  width: 50%;;
+  border-radius: 50px;
 }
